@@ -1,0 +1,12 @@
+searchTransportHub:
+searchTrain:T1122
+searchTrain:T1235
+searchCities:Calcutta:New Delhi
+searchCities:Chennai:Hyderabad
+searchCities:Ahmedabad:Mumbai
+ServiceAvailability:Calcutta:Mumbai
+ServiceAvailability:Chennai:Mumbai
+ServiceAvailability:Delhi:Calcutta
+ServiceAvailability:Nagpur:Vishakhapatnam
+ServiceAvailability:Jaipur:Vishakhapatnam
+searchCities:Chennai:Ambala

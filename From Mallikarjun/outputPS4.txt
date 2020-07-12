@@ -1,0 +1,93 @@
+--------Function showAll --------
+Total no. of freight trains: 5
+Total no. of cities: 8
+List of Freight trains:
+T1235
+T2342
+T1122
+T2341
+T5623
+List of cities:
+Chennai
+New Delhi
+Calcutta
+Ahmedabad
+Nagpur
+Mumbai
+Vishakhapatnam
+Hyderabad
+---------------------------------------
+
+--------Function displayTransportHub --------
+Main transport hub: New Delhi
+Number of trains visited: 3
+List of Freight trains:
+T1235
+T2341
+T2342
+---------------------------------------
+
+--------Function displayConnectedCities --------
+Freight train number: T1122
+Number of cities connected: 3
+List of cities connected directly by T1122:
+Ahmedabad
+Nagpur
+Mumbai
+---------------------------------------
+
+--------Function displayConnectedCities --------
+Freight train number: T1235
+Number of cities connected: 2
+List of cities connected directly by T1235:
+Chennai
+New Delhi
+---------------------------------------
+
+--------Function displayDirectTrain --------
+City A: Calcutta
+City B: New Delhi
+Package can be sent directly: Yes - Available trains are -T2342
+---------------------------------------
+
+--------Function displayDirectTrain --------
+City A: Chennai
+City B: Hyderabad
+Package can be sent directly: No, there is no direct train between these two cities.
+---------------------------------------
+
+--------Function displayDirectTrain --------
+City A: Ahmedabad
+City B: Mumbai
+Package can be sent directly: No, there is no direct train between these two cities.
+---------------------------------------
+
+--------Function displayDirectTrain --------
+City A: Calcutta
+City B: Mumbai
+
+Can the package be sent: Yes, direct train is available
+Calcutta > T2342 > New Delhi >  > Ahmedabad > T1122 > Nagpur > T1122 > Mumbai
+--------Function displayDirectTrain --------
+City A: Nagpur
+City B: Vishakhapatnam
+
+
+Can the package be sent: No, No route available between Nagpur and Vishakhapatnam.
+
+
+--------Function displayConnectedCities --------
+Freight train number: T8899
+Train No : T8899 doesnot exist in the list of available trains , hence invalid train number
+
+--------Function displayDirectTrain --------
+City A: Jaipur
+City B: Vishakhapatnam
+Jaipur is not part of the list of cities covered by frieght path
+---------------------------------------
+
+--------Function displayDirectTrain --------
+City A: Chennai
+City B: Ambala
+Ambala is not part of the list of cities covered by frieght path
+---------------------------------------
