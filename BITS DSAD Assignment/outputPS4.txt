@@ -1,0 +1,187 @@
+-------- Function showAll() --------
+
+
+Total no. of freight trains: 5
+Total no. of cities: 8
+
+List of freight trains:
+
+T1235
+T2342
+T1122
+T2341
+T5623
+
+
+List of cities:
+
+Chennai
+New Delhi
+Calcutta
+Ahmedabad
+Nagpur
+Mumbai
+Vishakhapatnam
+Hyderabad
+
+------------------------------------
+
+
+
+-------- Function displayTransportHub() --------
+
+
+Main transport hub: New Delhi
+Number of trains visited: 3
+
+List of freight trains:
+
+T1235
+T2342
+T2341
+
+-------------------------------------------------
+
+
+
+-------- Function displayConnectedCities() -------
+
+
+Freight train number: T1122
+Number of cities connected: 3
+
+List of cities connected directly by T1122:
+
+Ahmedabad
+Nagpur
+Mumbai
+
+
+-------------------------------------------------
+
+
+
+-------- Function displayConnectedCities() -------
+
+
+Freight train number: T1235
+Number of cities connected: 2
+
+List of cities connected directly by T1235:
+
+Chennai
+New Delhi
+
+
+-------------------------------------------------
+
+
+
+-------- Function displayDirectTrain(cityA, cityB) -------
+
+
+City A: Calcutta
+City B: New Delhi
+
+Package can be sent directly: Yes, T2342
+
+-------------------------------------------------
+
+
+
+-------- Function displayDirectTrain(cityA, cityB) -------
+
+
+City A: Chennai
+City B: Hyderabad
+
+Package can be sent directly: No. There is no direct train between provided cities
+
+-------------------------------------------------
+
+
+
+-------- Function displayDirectTrain(cityA, cityB) -------
+
+
+City A: Ahmedabad
+City B: Mumbai
+
+Package can be sent directly: Yes, T1122
+
+-------------------------------------------------
+
+
+
+-------- Function findServiceAvailable(cityA, cityB) -------
+
+
+City A: Calcutta
+City B: Mumbai
+
+Can the package be sent: Yes, Calcutta > T2342 > New Delhi > T2341 > Ahmedabad > T1122 > Nagpur > T1122 > Mumbai
+
+-------------------------------------------------
+
+
+
+-------- Function findServiceAvailable(cityA, cityB) -------
+
+
+City A: Chennai
+City B: Mumbai
+
+Can the package be sent: Yes, Chennai > T1235 > New Delhi > T2341 > Ahmedabad > T1122 > Nagpur > T1122 > Mumbai
+
+-------------------------------------------------
+
+
+
+-------- Function findServiceAvailable(cityA, cityB) -------
+
+
+City A: Delhi
+City B: Calcutta
+
+Can the package be sent: No. There is no service available between provided cities
+
+-------------------------------------------------
+
+
+
+-------- Function findServiceAvailable(cityA, cityB) -------
+
+
+City A: Nagpur
+City B: Vishakhapatnam
+
+Can the package be sent: No. There is no service available between provided cities
+
+-------------------------------------------------
+
+
+
+-------- Function findServiceAvailable(cityA, cityB) -------
+
+
+City A: Jaipur
+City B: Vishakhapatnam
+
+Can the package be sent: No. There is no service available between provided cities
+
+-------------------------------------------------
+
+
+
+-------- Function displayDirectTrain(cityA, cityB) -------
+
+
+City A: Chennai
+City B: Ambala
+
+Package can be sent directly: No. There is no direct train between provided cities
+
+-------------------------------------------------
+
+
+
