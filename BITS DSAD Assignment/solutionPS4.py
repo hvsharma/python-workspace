@@ -128,7 +128,8 @@ def displayDirectTrain(cityA, cityB):
   out.write("City A: {0}\n".format(cityA))
   out.write("City B: {0}".format(cityB) + "\n\n")
   
-  # Traverse through the Adjacency Matrix and determine cities which are connected by the specified train
+  # No need to Traverse through the Adjacency Matrix since we can directly reference the train (edge) by 
+  # indexes. findTrainBetweenAdjacentCities() does just that!
   # First determine if the cities are adjacent. 
   #   If yes, directly return the connecting train
   #   Else, find common train (via Intersection) between rows of adjacency matrix for the provided cities.
@@ -251,17 +252,19 @@ def storeData(cleanedData):
 
 # Function to print AdjacencyMatrix for debugging purposes
 def printcitiesTrainsAdjacencyMatrix():
+  print("\n\n")
   for row in citiesTrainsAdjacencyMatrix:
     for column in row:
-      if (column == 0):
-        print(column + "\t")
-      else: print(column +  "\t")
-      print()
-    print()
+      print("{0}".format(column), end="\t")
+    print("\n\n")
+  print()
 
 
 # Read input file and store all data. Also create new output file
 readCityTrainfile()
+
+# Print the generated Adjacency Matrix on Console
+#printcitiesTrainsAdjacencyMatrix()
 
 # Write the read data into the output file
 showAll()
